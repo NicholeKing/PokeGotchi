@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Pikachu
+<div class="text-center">
+    <h1 class="display-4">PokeGotchi</h1>
+    <div class="stats">
+        <div class="stat">
+            <p>Fullness:</p>
+            <progress class="nes-progress is-success" value="@Model.Fullness" max="100"></progress>
+        </div>
+        <div class="stat">
+            <p>Happiness:</p>
+            <progress class="nes-progress is-success" value="@Model.Happiness" max="100"></progress>
+        </div>
+        <div class="stat">
+            <p>Meals:</p> <br> <p>@Model.Meals</p>
+        </div>
+        <div class="stat">
+            <p>Energy: </p>
+            <progress class="nes-progress is-success" value="@Model.Energy" max="100"></progress>
+        </div>
+    </div>
+    
+    <img src="@Url.Content(Model.Emotion)" alt="Pikachu">
+    @{
+        if(Model.isConscious)
+        {
+            <div class="buttons">
+                <a href="Feed" class="nes-btn is-primary">Feed</a>
+                <a href="Play" class="nes-btn is-success">Play</a>
+                <a href="Work" class="nes-btn is-error">Work</a>
+                <a href="Sleep" class="nes-btn is-warning">Sleep</a>
+            </div>
+        } else {
+            <div class="buttons">
+                <a href="reset" class="nes-btn is-dark">Restart</a>
+            </div>
+        }
+    }
+    <div class="nes-container">
+        @{
+            foreach(string s in Model.ActivityLog)
+            {
+                <p>@s</p>
+            }
+        }
+    </div>
+</div>
