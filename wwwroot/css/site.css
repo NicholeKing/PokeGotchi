@@ -13,8 +13,20 @@ for details on configuring this project to bundle and minify static web assets. 
 
 .nes-container
 {
+  margin-top: 20px;
   height: 200px;
   overflow-y: scroll;
+}
+
+.pika 
+{
+  margin: 40px;
+}
+
+.icons
+{
+  width: 60px;
+  padding: 0px 10px;
 }
 
 /* Sticky footer styles

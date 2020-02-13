@@ -12077,11 +12077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nicho\\desktop\\PokeGotchi\\PokeGotchi.csproj",
+      "projectUniqueName": "C:\\Users\\nicho\\desktop\\Lectures\\CSFeb2020\\PokeGotchi\\PokeGotchi.csproj",
       "projectName": "PokeGotchi",
-      "projectPath": "C:\\Users\\nicho\\desktop\\PokeGotchi\\PokeGotchi.csproj",
+      "projectPath": "C:\\Users\\nicho\\desktop\\Lectures\\CSFeb2020\\PokeGotchi\\PokeGotchi.csproj",
       "packagesPath": "C:\\Users\\nicho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nicho\\desktop\\PokeGotchi\\obj\\",
+      "outputPath": "C:\\Users\\nicho\\desktop\\Lectures\\CSFeb2020\\PokeGotchi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
