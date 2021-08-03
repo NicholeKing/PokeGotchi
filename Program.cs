@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
+// HA HA HA HA HA JOSH WREN WAS HERE :P
+
 namespace PokeGotchi
 {
     public class Program

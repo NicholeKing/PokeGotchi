@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "3raTMLLtycW6lEtISkvaaVN7rE2JZapUQ4D3JX4wA3gg9nv9NROojGrIdC684zhj0kNUZjA9DX0XzXABWXxsXA==",
+  "success": false,
+  "projectFilePath": "e:\\Wrenpo\\Wrenpo's Folder\\GitHub\\Repositories\\PokeGotchi\\PokeGotchi.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.AspNetCore.Razor.Design (>= 2.2.0)' for '.NETCoreApp,Version=v2.2'.",
+      "libraryId": "Microsoft.AspNetCore.Razor.Design",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.NETCore.App (>= 2.2.0)' for '.NETCoreApp,Version=v2.2'.",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.AspNetCore.App (>= 2.2.0)' for '.NETCoreApp,Version=v2.2'.",
+      "libraryId": "Microsoft.AspNetCore.App",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    }
+  ]
+}
